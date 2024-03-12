@@ -1,0 +1,268 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <title>Lab 1</title>
+</head>
+<body>
+    <form action="raspuns.html" method="get">
+        <table border="1">
+            <tr>
+                <td colspan="4" bgcolor="yellow">
+                    <p>
+                        Centru adoptie caini
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" bgcolor="pink">
+                    <p>
+                        Informatii personale
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>
+                        Nume:
+                    </label>
+                </td>
+                <td>
+                    <input type="text" name="nume" id="nume">
+                </td>
+                <td>
+                    <label>
+                        Prenume:
+                    </label>                    
+                </td>
+                <td>
+                    <input type="text" name="prenume" id="prenume">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>
+                        Judet:
+                    </label>
+                </td>
+                <td>
+                    <input type="text" name="jud" id="jud">
+                </td>
+                <td>
+                    <label>
+                        Oras:
+                    </label>                    
+                </td>
+                <td>
+                    <input type="text" name="oras" id="oras">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label>
+                        Adresa:
+                    </label>
+                </td>
+                <td colspan="2">
+                    <input type="text" name="adresa" id="adresa">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label>
+                        e-mail:
+                    </label>
+                </td>
+                <td colspan="2">
+                    <input type="text" name="email" id="email">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label>
+                        telefon:
+                    </label>
+                </td>
+                <td colspan="2">
+                    <input type="text" name="tel" id="tel">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" bgcolor="yellow">
+                    <p>
+                        Pentru a adopta un caine, politica noastra doreste sa se asigure ca indepliniti
+                        urmatoarele criterii:
+                    </p>
+                    <ol>
+                        <li>Loc de munca</li>
+                        <li>Apartament sau Casa</li>
+                        <li>Varsta:
+                            <ul>
+                                <li>18-24 de ani:
+                                    <ul>
+                                        <li>Poate lipsi locul de munca daca este student/elev si este intretinut de parinti</li>
+                                        <li>Poate avea chirie, nu domiciliu stabil</li>
+                                    </ul>
+                                </li>
+                                <li>25+ ani - trebuie sa indeplineasca criterile anterioare </li>
+                            </ul>
+                        </li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <label>Confirm ca indeplinesc criterile</label>
+                    <input type="checkbox" name="ok" id="ok">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" bgcolor="pink">
+                    <p>Caracteristici Caine</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <p>
+                        <label>
+                            Rasa:
+                        </label>
+                    </p>
+                </td>
+                <td colspan="1">
+                    <select>
+                        <option value="orice">
+                            orice
+                        </option>
+                        <option value="labrador">
+                            Labrador
+                        </option>
+                        <option value="airedale">
+                            Airedale Terrier
+                        </option>
+                        <option value="shiba">
+                            Shiba Inu
+                        </option>
+                        <option value="akita">
+                            Akita Inu
+                        </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <p>
+                        Criterile sunt sugestive,<br>va vor fi comunicate si<br>cautari in afara spectrului<br>
+                        daca nu vor fi gasite pe criterile dvs.
+                    </p>
+                </td>
+                <td colspan="1">
+                    <table border="1">
+                        <tr>
+                            <td>
+                                Varsta:
+                            </td>
+                            <td>
+                                Gen:
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>6-12luni</label>
+                                <input type="radio" value="6-12luni" name="age" id="age_puppy">
+                            </td>
+                            <td>
+                                <label>Mascul</label>
+                                <input type="radio" value="Mascul" name="gen" id="gen_mascul">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>1-3ani</label>
+                                <input type="radio" value="1-3ani" name="age" id="age_adult">
+                            </td>
+                            <td>
+                                <label>Femela</label>
+                                <input type="radio" value="Femela" name="gen" id="gen_femela">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>4+ ani</label>
+                                <input type="radio" value="4+ ani" name="age" id="age_old">
+                            </td>
+                            <td>
+                                <label>Indiferent</label>
+                                <input type="radio" value="Indiferent" name="gen" id="gen">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="1">
+                    <p>Descrieti experienta cu animale sau/si<br>de ce doriti sa adoptati:</p>
+                </td>
+                <td colspan="3">
+                    <textarea rows="5" cols="100"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <table border="1">
+                        <tr>
+                            <td colspan="2" bgcolor="yellow">
+                                <p>Necesitati suplimentare</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Prin programul nostru puteti beneficia de urmatoarele:
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        <label>Serviciu dresaj (pt varsta: +4luni)</label>
+                                        <input type="checkbox" id="dresaj" name="dresaj">
+                                    </li>
+                                    <li>
+                                        <label>Pachet complet de alimentatie (pt 3luni)</label>
+                                        <input type="checkbox" id="hrana" name="hrana">
+                                    </li>
+                                    <li>
+                                        <label>Accesorii importante pentru caini:</label>
+                                        <input type="checkbox" id="accesorii" name="accesorii">
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <label>Doresc sa fiu informat pe telefon (sms+apel)</label>
+                    <input type="checkbox" name="comunicare_tel" id="comunicare_tel">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <label>Doresc sa fiu informat pe email</label>
+                    <input type="checkbox" name="comunicare_mail" id="comunicare_mail">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <label>
+                        Sunt de acord cu 
+                        <a href="termeni.html">
+                            termenii si conditiile acestui site si politica cookies
+                        </a>
+                    </label>
+                    <input type="checkbox" name="termeni" id="termeni">
+                </td>
+            </tr>
+        </table>
+        <input type="submit">
+    </form>
+</body>
+</html>
