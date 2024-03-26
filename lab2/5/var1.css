@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ul{
+    border:#2d5372;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: auto auto;
+    background-color: #e0f1ff;
+    padding: 15px;
+}
+
+li{
+    padding: 25px;
+    color: white;
+    background-color: #2d5372;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+li img{
+    width: 100px;
+    height: auto;
+}

@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(93, 93, 133);
+}
+
+h1{
+    color: azure;
+}
+
+.mainbox{
+    margin: 5vh;
+    display: flex;
+    width: 400px;
+    border: 3px black solid;
+    background-color: aliceblue;
+}
+
+.leftbox{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.rightbox{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.image{
+    max-width: 200px;
+}
